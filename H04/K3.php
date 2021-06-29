@@ -1,9 +1,15 @@
 <?php
 
-function delen ($a){
-if ($a/3){
-    boolval();
-}
+$a = "reggin";
+
+function uno_revcard ($a){
+    $b = "";
+
+    $length = strlen ($a)-1;
+    for ($i =$length; $i >=0; $i--){
+        $b.=$a[$i];
+    }
+    return $b;
 }
 
-echo delen();
+echo uno_revcard($a);
