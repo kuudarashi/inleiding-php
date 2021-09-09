@@ -25,7 +25,7 @@ for ($i = 1; $i <= 10; $i++){
         $class = "class ='black'";
     }
 
-    echo "<img ".$class."src='../apen/aap".$i.".jpg'>";
+    echo "<img ".$class."src='../img/apen/aap".$i.".jpg'>";
 }
 echo "</div>";
 ?>

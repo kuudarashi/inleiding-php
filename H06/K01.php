@@ -31,7 +31,7 @@ try {
 } catch (PDOException $e) {
     echo "connection failed". $e->getMessage();
 }
-$query ="select * from cursist";
+$query ="select * from cursist where cursistnr = 64 and plaats = 'made'";
 $stmt = $conn->prepare($query) or die ("error 1.");
 $stmt->execute() or die('error 2.');
 
